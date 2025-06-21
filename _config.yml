@@ -1,0 +1,9 @@
+title: Brian Mercer
+baseurl: ""
+url: "https://yourusername.github.io"
+
+collections:
+  pages:
+    output: true
+
+markdown: kramdown

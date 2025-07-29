@@ -9,7 +9,9 @@ This is my personal/professional site hosted on GitHub Pages.
 - `/assets/` – images, styles, and scripts
 
 ## 🛠 Editing
-You can edit any `.html` file in a text editor (or GitHub web UI). Look for `<h1>`, `<p>`, or `<ul>` sections.
+You can edit any `.html` file in a text editor or GitHub's web UI. Look for `<h1>`, `<p>`, or `<ul>` tags to update text.
 
 ## 🚀 Deploy
-GitHub Pages auto-deploys from this repository!
+GitHub Pages auto-deploys from the `main` branch of this repository.
+
+_Last updated: 2025-07-18_

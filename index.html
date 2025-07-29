@@ -1,28 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Home</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
   <style>
-    body { padding: 2rem; }
-    nav { margin-bottom: 2rem; }
+    body {
+      display: flex;
+      min-height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    nav {
+      width: 200px;
+      background: #f8f8f8;
+      padding: 2rem;
+      border-right: 1px solid #ddd;
+    }
+    nav a {
+      display: block;
+      margin: 1rem 0;
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+    }
+    .placeholder {
+      background: #eee;
+      border: 1px dashed #ccc;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      overflow-x: auto;
+    }
   </style>
 </head>
 <body>
-  
-<nav>
-  <div class="container" style="margin-top: 20px;">
-    <a href="index.html">Home</a> |
-    <a href="professional.html">Professional</a> |
+  <nav>
+    <strong>Navigation</strong>
+    <a href="index.html">Home</a>
+    <a href="professional.html">Professional</a>
     <a href="personal.html">Personal</a>
-  </div>
-</nav>
-
-  <div class="container">
+  </nav>
+  <main>
     <h1>Home</h1>
-    <p>Welcome to my minimalist site. Use the nav bar to explore professional and personal pages.</p>
-  </div>
+    <p>Welcome to my site with a sidebar layout.</p>
+
+    <h2>Image Placeholder</h2>
+    <div class="placeholder"><img src="https://via.placeholder.com/600x300" alt="Placeholder Image" /></div>
+
+    <h2>Video Placeholder</h2>
+    <div class="placeholder">
+      <video width="100%" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <h2>Code Placeholder</h2>
+    <pre><code>def hello_world():
+    print("Hello, world!")</code></pre>
+  </main>
 </body>
 </html>

@@ -1,0 +1,48 @@
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9faff; /* very light blue background */
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #1e4e8c; /* deep blue */
+  padding: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

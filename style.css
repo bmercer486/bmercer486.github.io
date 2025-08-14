@@ -9,7 +9,7 @@ body {
 /* Navigation bar */
 nav {
   background-color: #1e4e8c; /* deep blue */
-  padding: 0.5em;
+  padding: 1em; /* Controld height of the navbar */
 }
 
 nav ul {

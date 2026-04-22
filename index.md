@@ -5,10 +5,10 @@ title: Home
 <div class="hero">
   <img src="/assets/images/headshot.jpg" class="profile-img">
 
-  <h1>Your Name</h1>
+  <h1>Brian Mercer</h1>
 
   <p>
-    Short intro about you. What you work on, interests, etc.
+adfs
   </p>
 </div>
 

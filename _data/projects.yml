@@ -1,9 +1,41 @@
-- title: "Example Project"
-  image: "/assets/images/project1.png"
+- title: "Engineering Education"
+  image: "/assets/images/headshot.jpg"
   description: >
-    This project explores $E = mc^2$ and related ideas.
+    As  Lectuer at the University of Illinois, I taught classes in computational mechanics, solid mechanics, and machine design. 
+    I redesigned course curriculum using modern best practices, focusing on student engagement in large-lecture courses and improving
+    student literacy in computational tools like Python and commercial CAD and finite element analysis software.
   links:
-    - name: Paper
-      url: https://example.com
-    - name: Code
-      url: https://github.com
+    - name: Paper 1
+      url: https://www.example.com
+
+- title: "Multiscale Finite Element Modeling"
+  image: "/assets/images/multiscale-fea.png"
+  description: >
+    I have done work exploring implementation of finite element models which use fine-scaling modeling 
+    of representative volume elements (RVEs) to homogenize material behavior and obtain cost-efficient solutions
+  links:
+    - name: Paper 1
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0045782514005003
+    - name: Paper 2
+      url: https://www.sciencedirect.com/science/article/pii/S0020768316301263
+
+- title: "Atomistic models of Kevlar fibers"
+  image: "/assets/images/kevlar.png"
+  description: >
+    Kevlar polymer fibers consist of aligned polymer chains and have a high degree of crystallinity. My Ph.D. dissertation work focused
+    on characterizing the structure-property relationships in Kevlar fibers using atomstic level modeling of fiber microstructure and 
+    the material's behavior under a variety of loading conditions.
+  links:
+    - name: Paper 1
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0032386117302598
+    - name: Paper 2
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0032386117309102
+
+- title: "Additive manufacturing"
+  image: "/assets/images/meltpool.png"
+  description: >
+    As a research engineer, I developed a computational model for melting and solification in selective laser melting of metal powder beds.
+    The model was used to optimize laser scanning protocols to achieve target material properties for a given part.
+  links:
+    - name: Paper 1
+      url: https://www.sciencedirect.com/science/article/pii/S0264127520306523

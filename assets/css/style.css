@@ -55,3 +55,17 @@ body {
   padding: 20px;
   color: #777;
 }
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;   /* makes it a circle */
+  object-fit: cover;    /* crops nicely */
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

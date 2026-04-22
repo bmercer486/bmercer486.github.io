@@ -1,0 +1,9 @@
+- title: "Example Project"
+  image: "/assets/images/project1.png"
+  description: >
+    This project explores $E = mc^2$ and related ideas.
+  links:
+    - name: Paper
+      url: https://example.com
+    - name: Code
+      url: https://github.com

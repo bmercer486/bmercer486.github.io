@@ -1,0 +1,18 @@
+title: "Your Name"
+description: "Personal website"
+baseurl: ""
+url: "https://username.github.io"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"

@@ -1,20 +1,5 @@
 # Personal Website (GitHub Pages + Jekyll)
 
-## 🚀 Deploy to GitHub Pages
-
-1. Create a repo named `username.github.io`
-2. Upload all files
-3. Go to **Settings → Pages**
-4. Enable GitHub Pages (main branch)
-
-Your site will be live at:
-
-```
-https://username.github.io
-```
-
----
-
 ## 💻 Local Development (Windows)
 
 ### 1. Install Ruby

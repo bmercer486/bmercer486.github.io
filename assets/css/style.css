@@ -70,3 +70,9 @@ body {
   margin-bottom: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}

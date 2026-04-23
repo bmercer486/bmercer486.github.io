@@ -1,4 +1,5 @@
 - title: "Engineering Education"
+  category: "education"
   image: "/assets/images/headshot.jpg"
   description: >
     As  Lectuer at the University of Illinois, I taught classes in computational mechanics, solid mechanics, and machine design. 
@@ -9,6 +10,7 @@
       url: https://www.example.com
 
 - title: "Multiscale Finite Element Modeling"
+  category: "technical"
   image: "/assets/images/multiscale-fea.png"
   description: >
     I have done work exploring implementation of finite element models which use fine-scaling modeling 
@@ -20,6 +22,7 @@
       url: https://www.sciencedirect.com/science/article/pii/S0020768316301263
 
 - title: "Atomistic models of Kevlar fibers"
+  category: "technical"
   image: "/assets/images/kevlar.png"
   description: >
     Kevlar polymer fibers consist of aligned polymer chains and have a high degree of crystallinity. My Ph.D. dissertation work focused
@@ -32,6 +35,7 @@
       url: https://www.sciencedirect.com/science/article/abs/pii/S0032386117309102
 
 - title: "Additive manufacturing"
+  category: "technical"
   image: "/assets/images/meltpool.png"
   description: >
     As a research engineer, I developed a computational model for melting and solification in selective laser melting of metal powder beds.
